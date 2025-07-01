@@ -6,3 +6,11 @@ h1 {
     color: blue;
     text-align: center;
 }
+
+.objective {
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
