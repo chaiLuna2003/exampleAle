@@ -25,6 +25,7 @@ span.objective {
     margin: 40px 40px 40px 40px;
     text-align: center;   
     flex-direction: row;
+    
 }
 
 .imagen img{
@@ -32,4 +33,10 @@ span.objective {
     border-radius: 10px;
     align-items: center;
     
+}
+
+@media (max-width: 768px) {
+    .imagen img {
+        width: 100%;
+    }
 }
