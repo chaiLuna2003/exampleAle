@@ -1,16 +1,35 @@
 *{
-    background-color: wheat;
+    background-color: #FFF8E3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 20px;
 }
 
 h1 {
-    color: blue;
+    color: rgb(6, 6, 37);
     text-align: center;
+    
 }
 
-.objective {
+span.objective {
+    color: rgb(6, 6, 37);
     font-size: 1.2em;
-    color: rgb(0, 0, 0);
-    margin: 20px;
-    padding: 10px;
-    border-radius: 5px;
+    line-height: 1.5;
+}
+
+
+
+.imagen {
+    margin: 40px 40px 40px 40px;
+    text-align: center;   
+    flex-direction: row;
+}
+
+.imagen img{
+    width: 30%;
+    border-radius: 10px;
+    align-items: center;
+    
 }
